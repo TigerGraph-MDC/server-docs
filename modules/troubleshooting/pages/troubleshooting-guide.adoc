@@ -482,7 +482,7 @@ GSE : /home/tigergraph/tigergraph/logs/GSE_1_1/log.INFO
 
 If the GSE process fails to start, it is usually attributed to a license issue, please check these factors :
 
-* *License Expiration* `gadmin status license` This command will show you the expiration date of your license.
+* *License Expiration* `gadmin license status` This command will show you the expiration date of your license.
 * *Single Node License on a Cluster* If you are on a TigerGraph cluster, but using a license key intended for a single machine, this will cause issues. Please check with your point of contact to see which license type you have.
 * *Graph Size Exceeds License Limit* Two cases may apply for this reason. The first reason is you have multiple graphs but your license only allows for a single graph. The second reason is that your graph size exceeds the memory size that was agreed upon for the license. Please check with your point of contact to verify this information.
 
